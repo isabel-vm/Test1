@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,300&display=swap');
+body{background-color: azure;
+font-family: KoHo;
+}
+.Principal{color: rgb(0, 83, 139);}
+#identificador{color: cadetblue;}
+li{
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(0, 139, 139, 0.164);
+}
+ol :last-child{
+    background-color: rgba(0, 123, 139, 0.568);
+}
+table{style="margin: 20px;"; background-color: rgba(0, 125, 209, 0.315);}
