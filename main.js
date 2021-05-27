@@ -1,6 +1,9 @@
-var x=10;
-console.log(x);
+function foo(){
+    let mensaje = "Hola";
+    for(var i=0; i<10; i++){
+        console.log(i);
+    }
+    console.log(mensaje);
+}
 
-//var x = 10;
-//x += 5;
-//console.log(x);
+foo();
